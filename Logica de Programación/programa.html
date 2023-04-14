@@ -6,17 +6,50 @@
 
 <script>
     var anio = 2023;
-    document.write("La edad de Angel es...")
-    document.write("<br>")
-    document.write("?")
-    document.write("<br>")
-    document.write(25+3)
-    document.write("<br>")
-    document.write("20" + "24 ")
-    document.write("<br>")
-    document.write(2024-9)
-    document.write("<br>")
-    document.write(12 + " años")   
-    document.write("<br>")
+    var promedio = (10+25+15)/3;
+
+    function saltarLinea( ) {
+        var saltoLinea = "<br>";
+        document.write(saltoLinea);
+                
+    }
+
+    function imprimir(params) {
+        document.write(params);        
+        saltarLinea();
+    }
+    frase = "La edad de Angel es..?"
+    imprimir(frase);
+    
+    var edadYo = anio - 1989;
+    var edadHermano = anio - 1991;
+
+    var mensaje = "La diferencia entre mi hermano y yo es de: " + Math.abs(edadYo - edadHermano) + " años";
+    imprimir (mensaje);   
+
+  
+    /*
+    document.write("La edad de Angel es...");
+    saltarLinea();
+    document.write("?");
+    saltarLinea();
+    document.write(25+3);
+    saltarLinea();
+    document.write("20" + "24 ");
+    saltarLinea();
+    document.write(2024-9);
+    saltarLinea();
+    document.write(12 + " años");
+    saltarLinea();
     document.write("Angel tiene: " + (anio -1989) + " años");
+    saltarLinea();
+    var edadJimena = 10;
+    var edadPaola = 25;
+    var edadLaura = 15
+    var nombre1 = 'Jimena';
+    var nombre2 = 'Paola';
+    var nombre3 = 'Laura';
+    promedio = (edadJimena + edadPaola + edadLaura)/3
+    document.write("El promedio de las edades de: "+nombre1 +", "+ nombre2+ ", "+ nombre3 + "  es: "+Math.round(promedio));
+    */
 </script>
