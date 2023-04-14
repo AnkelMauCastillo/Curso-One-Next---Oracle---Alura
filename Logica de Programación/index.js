@@ -12,13 +12,14 @@ function imc(peso, altura, nombre) {
     return "El imc Calculado de: "+ nombre +" es: " + imc;
 }
 
-var pesoAngel = 93;
-var alturaAngel = 1.72;
-imc(pesoAngel, alturaAngel, "Angel");
+var peso = prompt("Dame tu peso: ");
+var altura = prompt ("Dame tu altura: ");
+var nombre = prompt ("Nombre: ");
+//imc(pesoAngel, alturaAngel, "Angel");
 
 //imprimir (pesoAngel,alturaAngel, "Angel");
 
-imcAngel = imc(93, 1.72, "Angel");
+imcAngel = imc(peso, altura, nombre);
 imcEdy = imc(85, 1.70, "Edy");
 imprimir(imcAngel);
 imprimir(imcEdy);
