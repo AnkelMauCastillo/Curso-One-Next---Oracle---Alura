@@ -17,7 +17,7 @@ if (numeroLanzado == numeroPensado) {
     imprimir ("Numero Correcto");
     
 } else {
-    imprimir ( numeroLanzado +" es numero Incorrecto, El numero pensado era: " + numeroPensado);
+    imprimir ( numeroLanzado +"Numero Incorrecto, El numero pensado era: " + numeroPensado);
 }
 
 
