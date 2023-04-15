@@ -1,0 +1,23 @@
+<meta charset="UTF-8">
+<script>
+    var intentos = 3;
+    var contador = 1;
+    while (contador <= intentos) {
+        var inicioDeSesionRegistrado = "alura";
+        var contrasenhaRegistrada = "alura321";               
+        var inicioDeSesionIngresado = prompt("Ingrese su usuario");
+        var contrasenhaIngresada = prompt("Ingrese su contraseña");
+
+        if (inicioDeSesionRegistrado == inicioDeSesionIngresado && contrasenhaRegistrada == contrasenhaIngresada) {
+            alert("Bienvenido al sistema " + inicioDeSesionIngresado + "No. de intento: " + contador);
+            break;
+        } else {
+            alert("inicio de sesión inválido. Favor intente de nuevo, No. de intento: " + contador);
+            if (contador ==intentos) {
+                document.write("Haz superado el limite de intetos Permitidos");
+            }
+        }
+        contador++;
+
+    }
+</script>
