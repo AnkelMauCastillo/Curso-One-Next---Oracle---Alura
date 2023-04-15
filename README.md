@@ -10,10 +10,12 @@ El curso comienza con una introducción a HTML, cubriendo conceptos como etiquet
 
 El curso incluye proyectos prácticos que ayudan a los estudiantes a aplicar lo que han aprendido. Los proyectos incluyen:
 
-- 
-- 
-- 
+- [1.-Logica de Programación_Primeros_Pasos](1.-Logica%20de%20Programaci%C3%B3n_Primeros_Pasos/)
+- [2.-Logica de Programación_Conceptos_Primordiales](2.-Logica%20de%20Programaci%C3%B3n_Conceptos_Primordiales/)
+
+ 
 
 ## Audiencia objetivo
 
 El curso es adecuado para principiantes que desean aprender los fundamentos de HTML y JavaScript y cómo utilizarlos para crear aplicaciones web interactivas. También puede ser una buena opción para aquellos que buscan una introducción sólida a estas tecnologías antes de profundizar en temas más avanzados.
+
