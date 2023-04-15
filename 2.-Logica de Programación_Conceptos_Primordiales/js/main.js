@@ -6,7 +6,19 @@ function imprimir(params) {
     document.write(params);
     saltarLinea( );    
 }
+function sorteo(n) {
+    return Math.round(Math.random()*n);    
+}
+var n = parseInt(prompt("Dame un numero para Sortear: "));
+var numeroPensado = sorteo(n);
+var numeroLanzado = parseInt (prompt("Ingrese el numero entre 0-" + n));
 
+if (numeroLanzado == numeroPensado) {
+    imprimir ("Numero Correcto");
+    
+} else {
+    imprimir ( numeroLanzado +" es numero Incorrecto, El numero pensado era: " + numeroPensado);
+}
 
 
 
@@ -59,3 +71,17 @@ if (puntosTotales > 28) {
 }
 
 
+
+var edad = parseInt(prompt("¿Cuál es tu edad?"));
+var tieneLicencia = prompt("¿Tienes licencia? Responde S o N");
+if (edad >= 18 && tieneLicencia == 'S') {
+    imprimir ("La persona tiene: "+ edad + " años y puede conducir");   
+} else {
+    if (tieneLicencia == 'N') {
+        imprimir ("La persona tiene: "+ edad + " años y No puede conducir por que no tiene licencia");
+
+    }else {
+        imprimir ("La persona tiene: "+ edad + " años y No puede conducir por que no tiene licencia ni edad");
+    }
+    
+}
