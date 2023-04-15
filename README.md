@@ -1,4 +1,4 @@
-# Curso de HTML y JavaScript de Alura y OneNext Oracle
+# Curso de HTML con JavaScript de Alura y OneNext Oracle
 
 El curso tiene como objetivo enseñar a los estudiantes los fundamentos de las tecnologías de desarrollo web, HTML y JavaScript. Los estudiantes aprenderán cómo utilizar estas tecnologías para crear aplicaciones web interactivas y atractivas.
 
